@@ -1,0 +1,6 @@
+﻿  ArrayList.c
+c:\users\user\desktop\자료구조\linked list2\linked list2\arraylist.c(13): warning C4013: 'puts'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  Point.c
+  Pointmain.c
+  코드를 생성하고 있습니다...
+  Linked List2.vcxproj -> C:\Users\User\Desktop\자료구조\Linked List2\Debug\Linked List2.exe
