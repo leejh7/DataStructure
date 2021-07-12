@@ -1,0 +1,3 @@
+﻿  ExpressionTree.c
+c:\users\user\desktop\datastructure\binarytree2\binarytree2\expressiontree.c(17): warning C4013: 'isdigit'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  BinaryTree2.vcxproj -> C:\Users\User\Desktop\DataStructure\BinaryTree2\Debug\BinaryTree2.exe
