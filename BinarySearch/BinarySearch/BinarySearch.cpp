@@ -27,7 +27,8 @@ int BSearch(int ar[], int len, int target)
 
 int BsearchRecur(int ar[], int first, int last, int target)
 {
-	if (first > last) return -1;
+	if (ar[first] > target || ar[last] < target)
+		return -1;
 	else
 	{
 		int mid = (first + last) / 2;
@@ -43,7 +44,7 @@ int main()
 	int idx;
 	int target;
 	cin >> target;
-	idx = BSearch(arr, sizeof(arr) / sizeof(int), target);
+	idx = BsearchRecur(arr, 0, sizeof(arr) / sizeof(int) - 1, target);
 	if (idx == -1)
 	{
 		cout << "Å½»ö ½ÇÆÐ" << endl;
