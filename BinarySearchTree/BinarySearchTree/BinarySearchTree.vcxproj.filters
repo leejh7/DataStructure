@@ -18,18 +18,18 @@
     <ClInclude Include="BinarySearchTree.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="BinaryTree2.h">
+    <ClInclude Include="BinaryTree3.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BinaryTree2.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="BinarySearchTree.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="BinarySearchTreeMain.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTree3.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

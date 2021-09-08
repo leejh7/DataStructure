@@ -1,4 +1,4 @@
-#include "BinaryTree2.h"
+#include "BinaryTree3.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -62,6 +62,38 @@ void DeleteTree(BTreeNode * bt)
 	}
 }
 
+BTreeNode * RemoveLeftSubTree(BTreeNode * bt)
+{
+	BTreeNode * delNode = NULL;
+
+	if (bt != NULL) {
+		delNode = bt->left;
+		bt->left = NULL;
+	}
+	return delNode;
+}
+
+BTreeNode * RemoveRightSubTree(BTreeNode * bt)
+{
+	BTreeNode * delNode = NULL;
+
+	if (bt != NULL) {
+		delNode = bt->right;
+		bt->right = NULL;
+	}
+	return delNode;
+}
+
+void ChangLeftSubTree(BTreeNode * main, BTreeNode * sub)
+{
+	main->left = sub;
+}
+
+void ChangRightSubTree(BTreeNode * main, BTreeNode * sub)
+{
+	main->right = sub;
+}
+
 void PreorderTraverse(BTreeNode * bt, VisitFuncPtr action)
 {
 	if (bt == NULL)
@@ -80,13 +112,9 @@ void InorderTraverse(BTreeNode * bt, VisitFuncPtr action)
 		return;
 	else
 	{
-		if (bt->left != NULL)
-			printf("( ");
 		InorderTraverse(bt->left, action);
 		action(bt->data);
 		InorderTraverse(bt->right, action);
-		if (bt->right != NULL)
-			printf(") ");
 	}
 }
 

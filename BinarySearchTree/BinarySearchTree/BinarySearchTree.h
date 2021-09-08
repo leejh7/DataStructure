@@ -1,7 +1,7 @@
 #pragma once
 
 #include <stdio.h>
-#include "BinaryTree2.h"
+#include "BinaryTree3.h"
 
 typedef BTData BSTData;
 
@@ -16,3 +16,9 @@ void BSTInsert(BTreeNode ** pRoot, BSTData data);
 
 // BST를 대상으로 데이터 탐색(target이 위치한 노드 주소를 반환)
 BTreeNode * BSTSearch(BTreeNode * bst, BSTData target);
+
+// 트리에서 노드를 제거하고 제거된 노드의 주소 값을 반환한다.
+BTreeNode * BSTRemove(BTreeNode ** pRoot, BSTData target);
+
+// 이진 탐색 트리에 저장된 모든 노드의 데이터를 출력한다,
+void BSTShowAll(BTreeNode * bst);
