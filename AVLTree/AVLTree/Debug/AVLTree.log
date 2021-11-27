@@ -1,4 +1,8 @@
 ﻿  AVLTreeMain.c
-c:\users\user\desktop\datastructure\avltree\avltree\avltreemain.c(15): warning C4101: 'crNode3' :참조되지 않은 지역 변수입니다.
-c:\users\user\desktop\datastructure\avltree\avltree\avltreemain.c(14): warning C4101: 'clNode3' :참조되지 않은 지역 변수입니다.
+c:\users\user\desktop\datastructure\avltree\avltree\avltreemain.c(17): warning C4101: 'crNode2' :참조되지 않은 지역 변수입니다.
+c:\users\user\desktop\datastructure\avltree\avltree\avltreemain.c(16): warning C4101: 'clNode2' :참조되지 않은 지역 변수입니다.
+c:\users\user\desktop\datastructure\avltree\avltree\avltreemain.c(20): warning C4101: 'crNode3' :참조되지 않은 지역 변수입니다.
+c:\users\user\desktop\datastructure\avltree\avltree\avltreemain.c(14): warning C4101: 'crNode' :참조되지 않은 지역 변수입니다.
+c:\users\user\desktop\datastructure\avltree\avltree\avltreemain.c(19): warning C4101: 'clNode3' :참조되지 않은 지역 변수입니다.
+c:\users\user\desktop\datastructure\avltree\avltree\avltreemain.c(13): warning C4101: 'clNode' :참조되지 않은 지역 변수입니다.
   AVLTree.vcxproj -> C:\Users\User\Desktop\DataStructure\AVLTree\Debug\AVLTree.exe
